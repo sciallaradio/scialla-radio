@@ -207,7 +207,7 @@ font-family: "SaoTorpes", sans-serif;
   color: var(--red);
   font-size: clamp(38px, 7vw, 72px);
   line-height: .85;
-  letter-spacing: -.06em;
+  letter-spacing: -.08em;
   text-transform: lowercase;
 }
 
@@ -245,7 +245,7 @@ h3 {
   color: var(--red);
   font-size: 30px;
   line-height: .9;
-  letter-spacing: -.04em;
+  letter-spacing: -.06em;
   text-transform: lowercase;
 }
 
