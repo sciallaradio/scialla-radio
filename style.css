@@ -1,6 +1,8 @@
 @font-face {
-  font-family: system-rounded;
-  src: local("Arial Rounded MT Bold");
+    font-family: "SaoTorpes";
+    src: url("SaoTorpes.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
 }
 
 :root {
@@ -200,6 +202,7 @@ footer {
 }
 
 h2 {
+font-family: "SaoTorpes", sans-serif;
   margin: 0;
   color: var(--red);
   font-size: clamp(38px, 7vw, 72px);
@@ -237,6 +240,7 @@ h2 {
 }
 
 h3 {
+ font-family: "SaoTorpes", sans-serif;
   margin: 28px 0 12px;
   color: var(--red);
   font-size: 30px;
