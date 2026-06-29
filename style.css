@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "SaoTorpes";
-    src: url("SaoTorpes.otf") format("opentype");
+    font-family: "Botch";
+    src: url("Botch.otf") format("opentype");
     font-weight: normal;
     font-style: normal;
 }
@@ -202,12 +202,12 @@ footer {
 }
 
 h2 {
-font-family: "SaoTorpes", sans-serif;
-  margin: 0;
+  font-family: "Botch", sans-serif;
+  margin: 28px 0 12px;
   color: var(--red);
-  font-size: clamp(38px, 7vw, 72px);
-  line-height: .85;
-  letter-spacing: -.08em;
+  font-size: 30px;
+  line-height: .9;
+  letter-spacing: -.06em;
   text-transform: lowercase;
 }
 
