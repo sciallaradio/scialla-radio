@@ -1,150 +1,49 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Scialla Radio — Listen Live 24/7</title>
-  <meta name="description" content="Scialla Radio diffuse 24/7 : Broadcasting somewhere under the sun." />
-  <meta property="og:title" content="Scialla Radio" />
-  <meta property="og:description" content="Listen live 24/7." />
-  <meta property="og:image" content="scialla-logo.jpeg" />
-  <link rel="icon" href="scialla-logo.jpeg" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scialla Radio</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <main class="page">
-    <section class="hero" id="listen">
-      <div class="grain"></div>
+  <video class="bg-video" autoplay muted loop playsinline>
+    <source src="assets/video/background.mp4" type="video/mp4" />
+  </video>
 
-      <nav class="topbar">
-        <span class="pill">LIVE 24/7</span>
-        <div class="navlinks">
-          <a href="#listen">Listen</a>
-          <a href="#shows">Shows</a>
-          <a href="#residents">Residents</a>
-          <a href="#about">About</a>
-          <a href="#submit">Submit</a>
-        </div>
-      </nav>
+  <div class="overlay"></div>
 
-      <div class="card">
-        <img class="logo" src="scialla-logo.jpeg" alt="Scialla Radio logo" />
+  <header>
+    <nav>
+      <a href="#">● Live</a>
+      <a href="#archive">Archive</a>
+      <a href="#submit">Submit</a>
+      <a href="https://instagram.com/" target="_blank">Instagram</a>
+    </nav>
+  </header>
 
-        <p class="tagline">
-          
-        </p>
+  <main class="hero">
+    <p class="eyebrow">Mediterranean grooves · 24/7</p>
 
-        <div class="player-wrap">
-          <iframe
-            src="https://play.radioking.io/scialla-radio"
-            title="Scialla Radio player"
-            loading="lazy"
-            allow="autoplay"
-          ></iframe>
-        </div>
+    <h1>
+      Scialla
+      <span>Radio</span>
+    </h1>
 
-        <div class="buttons">
-          <a class="button primary" href="https://play.radioking.io/scialla-radio" target="_blank" rel="noopener">Listen live</a>
-          <a class="button" href="https://www.instagram.com/sciallaradio" target="_blank" rel="noopener">Instagram</a>
-          <a class="button" href="#submit">Submit a mix</a>
-        </div>
-      </div>
+    <section class="player">
+      <p>Live on air</p>
 
-      <footer>
-        <span>Broadcasting from somewhere under the sun.</span>
-      </footer>
-    </section>
-
-
-<section class="content-section" id="shows">
-  <div class="section-title">
-    <h2>Shows</h2>
-    <p>
-      Live broadcasts, guest mixes and archived shows.
-    </p>
-  </div>
-
-  <div class="grid">
-
-    <article class="mini-card">
-      <span>24/7</span>
-      <h3>Scialla Automatic</h3>
-      <p>
-        Scialla my friend.
-      </p>
-      <a href="https://play.radioking.io/scialla-radio" target="_blank">
-        Listen live
-      </a>
-    </article>
-
-    <article class="mini-card">
-      <span>LIVE</span>
-      <h3>Guest Shows</h3>
-      <p>
-        Monthly broadcasts from residents, friends and invited selectors.
-      </p>
-      <a href="#residents">
-        Meet the residents
-      </a>
-    </article>
-
-    <article class="mini-card">
-      <span>ARCHIVE</span>
-      <h3>Replays</h3>
-      <p>
-        Missed a show? Listen again to every archived mix and broadcast.
-      </p>
-      <a href="#">
-        Coming soon
-      </a>
-    </article>
-
-  </div>
-</section>
-
-
-    <section class="content-section" id="residents">
-      <div class="section-title">
-        <h2>Residents</h2>
-        <p>La famille Scialla Radio.</p>
-      </div>
-
-      <div class="grid residents">
-        <article class="mini-card">
-          <h3>DJ Snack</h3>
-          <p>Soul, disco, Brazilian boogie, worldwide grooves & Mediterranean rhythm.</p>
-          <a href="https://www.instagram.com/djsnack__" target="_blank" rel="noopener">@djsnack__</a>
-        </article>
-
-        <article class="mini-card">
-          <h3>Coming Soon</h3>
-          <p>Nouvelle émission bientôt sur Scialla Radio.</p>
-        </article>
-
-        <article class="mini-card">
-          <h3>Coming Soon</h3>
-          <p>Guest selectors, friends and extended family.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="content-section about" id="about">
-      <div class="section-title">
-        <h2>About</h2>
-      </div>
-      <p class="big-text">
-        Scialla Radio diffuse 24/7 une sélection solaire et éclectique : disco, boogie, Brazilian sounds, soul, tropical rhythms et musiques qui donnent envie de découvrir, voyager et se poser.
-      </p>
-    </section>
-
-    <section class="content-section submit" id="submit">
-      <div class="submit-box">
-        <h2>Submit a Mix</h2>
-        <p>Tu veux proposer un mix ou une émission ? Envoie ton lien, ton mood, ton Instagram et quelques mots.</p>
-        <a class="button primary" href="mailto:gerardadopte8306@gmail.com?subject=Scialla%20Radio%20-%20Submit%20a%20Mix&body=Name%20:%20%0AInstagram%20:%20%0AMix%20link%20:%20%0AMood%20/%20styles%20:%20%0AQuelques%20mots%20:%20" target="_blank" rel="noopener">Send a mix</a>
-      </div>
+      <iframe
+        src="https://play.radioking.io/scialla-radio"
+        allow="autoplay"
+      ></iframe>
     </section>
   </main>
+
+  <footer>
+    <span>© Scialla Radio</span>
+    <span>Saint-Raphael</span>
+  </footer>
 </body>
 </html>
